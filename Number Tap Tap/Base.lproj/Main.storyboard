@@ -12,24 +12,38 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone35.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xhm-F8-1lw">
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" alpha="0.64999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhm-F8-1lw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCh-EY-lkJ">
+                                <rect key="frame" x="114" y="194" width="92" height="92"/>
+                                <state key="normal" image="newgame.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Xhm-F8-1lw" secondAttribute="width" id="30c-Sr-jSd"/>
+                            <constraint firstAttribute="height" secondItem="Xhm-F8-1lw" secondAttribute="height" id="mlp-Zr-DOu"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="mainImage" destination="Xhm-F8-1lw" id="3vx-f9-4cH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-155" y="400.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="iphone35.png" width="320" height="480"/>
+        <image name="newgame.png" width="800" height="800"/>
     </resources>
 </document>

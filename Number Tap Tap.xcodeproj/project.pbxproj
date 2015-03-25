@@ -12,6 +12,7 @@
 		0085B34B1ABEE86000189F47 /* iphone35.png in Resources */ = {isa = PBXBuildFile; fileRef = 0085B3461ABEE86000189F47 /* iphone35.png */; };
 		0085B34C1ABEE86000189F47 /* iphone47.png in Resources */ = {isa = PBXBuildFile; fileRef = 0085B3471ABEE86000189F47 /* iphone47.png */; };
 		0085B34D1ABEE86000189F47 /* iphone55.png in Resources */ = {isa = PBXBuildFile; fileRef = 0085B3481ABEE86000189F47 /* iphone55.png */; };
+		0099BDA61ABFCD2A00622D1B /* newgame.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099BDA51ABFCD2A00622D1B /* newgame.png */; };
 		009A5DC61ABD28C600DCBB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5DC51ABD28C600DCBB71 /* AppDelegate.swift */; };
 		009A5DC81ABD28C600DCBB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5DC71ABD28C600DCBB71 /* ViewController.swift */; };
 		009A5DCB1ABD28C600DCBB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009A5DC91ABD28C600DCBB71 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		0085B3461ABEE86000189F47 /* iphone35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone35.png; sourceTree = "<group>"; };
 		0085B3471ABEE86000189F47 /* iphone47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone47.png; sourceTree = "<group>"; };
 		0085B3481ABEE86000189F47 /* iphone55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone55.png; sourceTree = "<group>"; };
+		0099BDA51ABFCD2A00622D1B /* newgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newgame.png; sourceTree = "<group>"; };
 		009A5DC01ABD28C600DCBB71 /* Number Tap Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Tap Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A5DC41ABD28C600DCBB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009A5DC51ABD28C600DCBB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		009A5DC31ABD28C600DCBB71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0099BDA51ABFCD2A00622D1B /* newgame.png */,
 				0085B3441ABEE86000189F47 /* ipad.png */,
 				0085B3451ABEE86000189F47 /* iphone4.png */,
 				0085B3461ABEE86000189F47 /* iphone35.png */,
@@ -209,6 +212,7 @@
 			files = (
 				0085B34B1ABEE86000189F47 /* iphone35.png in Resources */,
 				0085B34C1ABEE86000189F47 /* iphone47.png in Resources */,
+				0099BDA61ABFCD2A00622D1B /* newgame.png in Resources */,
 				009A5DCB1ABD28C600DCBB71 /* Main.storyboard in Resources */,
 				0085B3491ABEE86000189F47 /* ipad.png in Resources */,
 				0085B34D1ABEE86000189F47 /* iphone55.png in Resources */,
